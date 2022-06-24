@@ -1,0 +1,30 @@
+Get inside the thecmdchallenge/ directory == cd thecmdchallenge/
+
+Print current directory path == pwd
+
+List all the files from the current directory including the hidden ones == ls -a 
+
+Now list all the files inside the project, recursively (all files in the hierarchy). == ls * -r
+
+Clear all the clutter from the command line == clear 
+
+Go to the last level below the small-name folder and show on the console the content of the trophy.txt file. === **Changed Directory until finding trophy.txt** => cat trophy.txt 
+
+Move one level up and get to the funcode directory and list all files with the javascript typical extension. == cd funcode/ => ls *.js 
+
+Create a new directory inside funcode/the-most-funny/ called “not-that-funny“. == mkdir "not-that-funny" 
+
+Create a copy of the-mostboring-text.txt (you can find it within /boringfolder/‘s children) and name it lol.txt. == ** Changed Directory until find the-mostboring-text.txt** => cp the-mostboring-text.txt "lol.txt"
+
+Move funcode/kids.jpg inside funcode/images/hello/ == **Changed directory until finding kids.jpg** => mv kids.jpg images/hello 
+
+Remove the “small-name“ directory. == rm -rf small-name/
+
+Print in the command line the content of the-ultimate-joke.txt. == find . -type f -name "the-ultimate-joke.txt" => **Changed directory until finding the-ultimate-joke.txt** => cat the-ultimate-joke.txt 
+what do you call a programmer from Findland? ..... NERDIC!
+
+Remove all the contents from the boringfolder, they are extremely boring… == **Changed directory until finding the boringfolder** => rm -rf boringfolder/
+
+Open the file kamehameha/dragon-ball-jokes.md using the VI command line text editor == vi dragon-ball-jokes.md => edited the doc and saved it using Vi command shift+ZZ => cat dragon-ball-jokes.md
+
+
